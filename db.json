@@ -1,0 +1,47 @@
+{
+  "registrations": [
+    {
+      "nome": "Max Túlio Castro Ferreira",
+      "idade": "32",
+      "email": "",
+      "categoria": "",
+      "valor": "",
+      "id": 1
+    },
+    {
+      "nome": "Beatriz Junqueira Castro",
+      "idade": "3",
+      "email": "maxtcastro@gmail.com",
+      "tamanho": "tamanho",
+      "categoria": "caminhada",
+      "valor": "250",
+      "id": 2
+    },
+    {
+      "nome": "Fernanda Junqueira de Abreu",
+      "idade": "32",
+      "email": "fe-jabreu@outlook.com",
+      "tamanho": "tamanho",
+      "categoria": "3Km",
+      "valor": "500",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

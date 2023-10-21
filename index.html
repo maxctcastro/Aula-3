@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Ajuda a nossa Causa! Faça a diferença!</h1>
+
+    <form action="http://localhost:3000/registrations" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="text">Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <br>
+            <div>
+                <label for="numero">Idade:</label>
+                <input type="number" id="numero" name="idade">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Contato</legend>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Tamanho da Camiseta</legend>
+            <div>
+                <input type="radio" id="camisetaP" name="tamanho" value="tamanho">
+                <label for="P">P</label>
+                <input type="radio" id="camisetaM" name="tamanho" value="tamanho">
+                <label for="P">M</label>
+                <input type="radio" id="camisetaG" name="tamanho" value="tamanho">
+                <label for="P">G</label>
+                <input type="radio" id="camisetaXG" name="tamanho" value="tamanho">
+                <label for="P">XG</label>
+
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Inscrição</legend>
+            <div>
+                <label for="categoria">Categoria de Inscrição</label>
+                <select name="categoria" id="categoria">
+                    <option value="" disable selected>Selecione uma das opções...</option>
+                    <option value="3Km">Corrida de 3 km</option>
+                    <option value="5Km">Corrida de 5 km</option>
+                    <option value="caminhada">Caminhada de 4 km</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Doação</legend>
+            <div>
+                <label for="valor">Valor da Doação: R$</label>
+                <input type="number" id="valor" name="valor">
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <button type="submit" onclick="clicou()">Enviar</button>
+            <button type="reset">Limpar Formulário</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
